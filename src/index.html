@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla ToDo App</title>
+    <link rel="stylesheet" href="./styles.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="left">
+          <a href="#" class="navbar-brand">todos</a>
+        </div>
+        <div class="right">
+          <a href="#" class="nav-link">User</a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <article>
+        <section class="add-section">
+          <div class="add-todo">
+            <form id="addTodo" name="todo-form" autocomplete="off" novalidate>
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Add your Todo" required />
+                <span class="error"></span>
+              </div>
+              <input type="submit" class="btn"/>
+            </form>
+          </div>
+        </section>
+        <section>
+          <ul class="todo-list">
+            <li></li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <footer></footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

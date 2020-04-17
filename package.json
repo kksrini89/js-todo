@@ -1,0 +1,34 @@
+{
+  "name": "js-todo",
+  "version": "1.0.0",
+  "description": "To demonstrate todo application with vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./ --experimental-scope-hoisting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kksrini89/js-todo.git"
+  },
+  "keywords": [
+    "todo-app",
+    "vanilla-todo-app",
+    "js-todo",
+    "parcel-todo-app"
+  ],
+  "author": "Srinivasan K K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kksrini89/js-todo/issues"
+  },
+  "homepage": "https://github.com/kksrini89/js-todo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "sass": "^1.26.3"
+  }
+}
